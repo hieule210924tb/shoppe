@@ -215,12 +215,12 @@
 /* authen modal */
 .authen-form{
     width: 500px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    overflow: hidden;
 }
 .authen-form__container{
    padding: 0 32px;
-   background-color: var(--white-color);
-   border-radius: 5px;
-   overflow: hidden;
 }
 .authen-form__header{
     display: flex;
@@ -276,7 +276,7 @@
     margin-right: 8px;
 }
 .authen-form__socials{
-   background-color: #f5f5f5;
+   background-color: #D3D2D4;
    padding: 16px 36px;
    display: flex;
    justify-content: space-between;
@@ -299,4 +299,22 @@
 .authen-form__socials--google{
     color:#666;
     background-color: var(--white-color);
+}
+.authen-form__help{
+    display: flex;
+    justify-content: flex-end;
+}
+.authen-form__help-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #939393;
+}
+.authen-form__help-separate{
+    display: block;
+    border-left: 1px solid #eaeaea;
+    height: 22px;
+    margin: 1px 16px 0;
+}
+.authen-form__help-forgot{
+    color: var(--primary-color);
 }
