@@ -774,3 +774,60 @@
     right: -4px;
 }
 /* home sort +filter */
+.home-filter{
+    display: flex;
+    background-color: rgba(0 ,0 ,0,0.04);
+    align-items: center;
+    padding: 6px 22px;
+    border-radius: 2px;
+}
+.home-filter__label{
+    color: #555555;
+    font-size: 1.4rem;
+    margin-right: 12px;
+}
+.home-filter-btn{
+    margin-right: 12px;
+    min-width: 90px;
+}
+.home-filter__page{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.home-filter__page-num{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-right: 22px;
+}
+.home-filter__page-current{
+    color: var(--primary-color);
+}
+.home-filter__page-controls{
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex;
+    width: 72px;
+    height: 36px;
+}
+.home-filter__page-btn{
+    flex: 1;
+    display: flex;
+    background-color: var(--white-color);
+    text-decoration: none;
+}
+.home-filter__page-btn:first-child{
+    border-radius: 1px #eeeeee;
+}
+.home-filter__page-btn--disabled .home-filter__page-icon{
+    color: #ccc;
+}
+.home-filter__page-btn--disabled {
+    background-color: #f9f9f9f9;
+    cursor: default;
+}
+.home-filter__page-icon{
+    margin: auto;
+    font-size: 1.2rem;
+    color: #555555;
+}
