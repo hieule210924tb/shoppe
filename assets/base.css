@@ -151,9 +151,10 @@ html{
     top: 25px;
     border-radius: 2px;
     background-color: var(--white-color);
-    padding: 8px 12px;
+    padding: 8px 16px;
     list-style: none;
     display: none;
+    z-index: 1;
 }
 .select-input__link{
     text-decoration: none;
