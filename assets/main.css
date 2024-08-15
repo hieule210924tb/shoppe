@@ -1042,3 +1042,10 @@ i.home-product-item__like-icon-fill{
     font-weight: 600;
     color: var(--white-color);
 }
+.home-product__pagination{
+  margin: 48px 0 32px 0;
+}
+/* footer */
+.footer{
+    
+}

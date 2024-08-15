@@ -169,3 +169,37 @@ html{
 .select-input:hover .select-input__list{
     display: block;
 }
+/* pagination */
+.pagination-item--active .pagination-item-link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.pagination-item--active:hover .pagination-item-link{
+    background-color: #ed5c3f;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.pagination-item{
+    margin: 0 12px;
+}
+.pagination-item-link{
+   --height:30px;
+   text-decoration: none;
+   font-size: 2rem;
+   font-weight: 300;
+   color: #939393;
+   min-width: 40px;
+   height: var(--height);
+   line-height: var(--height);
+   text-align: center;
+   display: block;
+   border-radius: 2px;
+}
+.pagination-item__icon{
+   font-size: 1.4rem;
+}
+
